@@ -1,0 +1,33 @@
+.about {
+    padding-top: 100px;
+}
+.about__inner {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+.about__inner > p {
+    margin-bottom: 30px;
+}
+.abouta--title {
+    max-width: 450px;
+    width: 100%;
+    margin: 0 auto;
+}
+.about__text {
+    max-width: 900px;
+    width: 100%;
+    margin: 0 auto;
+}
+.about__logo {
+    width: 170px;
+    height: 90px;
+    margin: 0 auto;
+}
+
+@media (max-width: 800px){
+    .about {
+        padding-top: 50px;
+    }
+}

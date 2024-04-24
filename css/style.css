@@ -1,0 +1,56 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+@import "reset.css";
+@import "header.css";
+@import "about.css";
+@import "portfolio.css";
+@import "services.css";
+@import "testimonials.css";
+@import "gallery.css";
+@import "blog.css";
+@import "instagram.css";
+@import "footer.css";
+
+:root {
+    --text-dark: #171717;
+    --text-light: #525252;
+    --extra-light: #a3a3a3;
+    --white: #ffffff;
+    --max-width: 1230px;
+    --header-font: "Merriweather", serif;
+    --monseratFont: "Montserrat", sans-serif;
+    --lineHeight: 28px;
+    --fontWeight: 400;
+    --fontSize:  16px;
+}
+
+html.unscroll{
+    overflow: hidden;
+}
+
+body {
+    font-family: var(--monseratFont);
+    color: var(--text-dark);
+    line-height: var(--lineHeight);
+    font-weight: var( --fontWeight);
+    font-size: var(--fontSize);
+}
+
+.container{
+    max-width: var(--max-width);
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.title{
+    font-family: var(--header-font);
+    font-size: 30px;
+    color: var(--text-dark);
+    margin-bottom: 30px;
+}
+
+.text{
+    color: var(--text-light);
+}
